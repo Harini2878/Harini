@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Attendance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Smart Attendance System</h1>
+
+  <input type="text" id="studentName" placeholder="Enter Student Name">
+  <input type="text" id="studentID" placeholder="Enter Student ID">
+  <button onclick="markAttendance()">Mark Attendance</button>
+  <button onclick="exportCSV()">Export CSV</button>
+
+  <table id="attendanceTable">
+    <tr>
+      <th>Student Name</th>
+      <th>Student ID</th>
+      <th>Date</th>
+      <th>Time</th>
+    </tr>
+  </table> 
+  <script src="script.js"></script>
+</body>
+</html>
